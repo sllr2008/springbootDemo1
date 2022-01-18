@@ -20,7 +20,7 @@ import javax.sound.midi.Soundbank;
 @SpringBootApplication
 public class MainApplication {
     public static void main(String[] args) {
-        System.out.println("444");
+        System.out.println("v1");
         //1、返回我们IOC容器
         ConfigurableApplicationContext run = SpringApplication.run(MainApplication.class, args);
         //2、查看容器里面的组件
@@ -50,8 +50,7 @@ public class MainApplication {
         System.out.println(car111); //不导入为false
 
         System.out.println("--------属性绑定---------");
-        //System.out.println(run.getBean(NewCar.class));
-        System.out.println("--------属性绑定123---------");
+        System.out.println(run.getBean(NewCar.class));
 
         System.out.println("--------value属性绑定---------");
         System.out.println(run.getBean(NewCar1.class));
