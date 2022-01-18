@@ -50,7 +50,8 @@ public class MainApplication {
         System.out.println(car111); //不导入为false
 
         System.out.println("--------属性绑定---------");
-        System.out.println(run.getBean(NewCar.class));
+        //System.out.println(run.getBean(NewCar.class));
+        System.out.println("--------属性绑定123---------");
 
         System.out.println("--------value属性绑定---------");
         System.out.println(run.getBean(NewCar1.class));
