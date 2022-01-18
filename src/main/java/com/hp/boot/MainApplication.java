@@ -20,7 +20,7 @@ import javax.sound.midi.Soundbank;
 @SpringBootApplication
 public class MainApplication {
     public static void main(String[] args) {
-        System.out.println("v1.43");
+        System.out.println("v1.44");
         //1、返回我们IOC容器
         ConfigurableApplicationContext run = SpringApplication.run(MainApplication.class, args);
         //2、查看容器里面的组件
