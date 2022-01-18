@@ -15,12 +15,11 @@ import javax.sound.midi.Soundbank;
 /**
  * @author hp
  * @create 2022-01-18 10:35
- *
  */
 @SpringBootApplication
 public class MainApplication {
     public static void main(String[] args) {
-        System.out.println("v1.5");
+        System.out.println("v1.6");
         //1、返回我们IOC容器
         ConfigurableApplicationContext run = SpringApplication.run(MainApplication.class, args);
         //2、查看容器里面的组件
